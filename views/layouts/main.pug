@@ -1,0 +1,18 @@
+include ../mixins/nav
+include ../mixins/footer
+
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="/styles.css")
+        title Document
+    body
+        section.allArea
+            header.allAea__header
+                +nav
+            main.allAea__main
+                block content
+            footer.allArea__footer
+                +footer

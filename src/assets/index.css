@@ -1,0 +1,187 @@
+.wrapper .wrapper__col1 {
+    width: 100%;
+    height: 700px;
+    background-image: url(https://images.unsplash.com/photo-1555099962-4199c345e5dd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-bottom: 50px;
+}
+
+.wrapper .wrapper__col2 {
+    width: 100%;
+    height: 700px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.wrapper .wrapper__col2 .wrapper__col2__left,
+.wrapper .wrapper__col2 .wrapper__col2__right {
+    width: 60px;
+    height: 100%;
+}
+
+.wrapper .wrapper__col3 {
+    width: 100%;
+    height: 700px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.wrapper .wrapper__col3 .wrapper__col3__left,
+.wrapper .wrapper__col3 .wrapper__col3__right {
+    width: 60px;
+    height: 100%;
+}
+
+.wrapper .wrapper__col2 .wrapper__col2__main,
+.wrapper .wrapper__col3 .wrapper__col3__main {
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper .wrapper__col2 .wrapper__col2__main__bottom {
+    width: 100%;
+    height: 50%;
+    
+}
+
+.wrapper .wrapper__col2 .wrapper__col2__main__top {
+    width: 100%;
+    height: 50%;
+}
+
+.mt, .mb{
+    display: flex;
+    flex-direction: row;
+}
+
+.mt .wrapper__col2__main__top__img {
+    width: 50%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.mt .wrapper__col2__main__top__txt {
+    width: 50%;
+    height: 100%;
+}
+
+.mb .wrapper__col2__main__bottom__img {
+    width: 50%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1580927752452-89d86da3fa0a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.mb .wrapper__col2__main__bottom__txt {
+    width: 50%;
+    height: 100%;
+}
+
+.cm3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.cm3 div {
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px #c8d6e5;
+}
+
+.cm3 .wrapper__col3__main__box1 {
+    width: 300px;
+    height: 400px;
+
+    background-color: darkviolet;
+    margin-top: 100px;
+    background-image: url("https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+    background-position: center center;
+}
+
+.cm3 .wrapper__col3__main__box2 {
+    width: 300px;
+    height: 400px;
+
+    background-color: dodgerblue;
+    background-image: url("https://images.unsplash.com/photo-1505238680356-667803448bb6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+    background-position: center center;
+}
+
+.cm3 .wrapper__col3__main__box3 {
+    width: 300px;
+    height: 400px;
+
+    background-color: deepskyblue;
+    margin-top: 200px;
+    background-image: url("https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+    background-position: center center;
+}
+
+.mainDesc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainDesc .mainDesc__title {
+   margin-bottom: 30px;
+}
+
+.mainDesc .mainDesc__title .mainDesc__title__unmber {
+    font-size: 40px;
+    color: gray;
+    font-weight: 700;
+    margin-right: 10px;
+    border-bottom: 4px solid #333;
+}
+
+.mainDesc .mainDesc__title .mainDesc__title__txt {
+    font-size: 40px;
+    color: gray;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+.mainDesc .mainDesc__content {
+    color: gray;
+    font-size: 30px;
+}
+
+.mainDesc .mainDesc__title {
+    margin-bottom: 30px;
+ }
+ 
+ .mainDesc .mainDesc__title .mainDesc__title1__unmber {
+     font-size: 40px;
+     color: gray;
+     font-weight: 700;
+     margin-right: 10px;
+     border-bottom: 4px solid #333;
+ }
+ 
+ .mainDesc .mainDesc__title .mainDesc__title1__txt {
+     font-size: 40px;
+     color: gray;
+     font-weight: 700;
+     margin-right: 10px;
+ }
+ 
+ .mainDesc .mainDesc__content {
+     color: gray;
+     font-size: 30px;
+ }
